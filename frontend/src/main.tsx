@@ -17,7 +17,7 @@ const buildAssetUrl = (filePath: string) => {
 };
 
 const isInternalRoute = window.location.pathname.startsWith("/internal");
-const routerBaseName = isInternalRoute ? "/internal" : import.meta.env.BASE_URL;
+const routerBaseName = isInternalRoute ? "/internal" : "/";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
