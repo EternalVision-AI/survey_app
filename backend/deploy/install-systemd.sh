@@ -26,13 +26,20 @@ if [[ ! -f "$APP_DIR/.env" ]]; then
   echo "MISTRAL_API_KEY / EDENAI_API_KEY / SMTP_* will fail until it's created." >&2
 fi
 
-echo "Building backend (npm run build)..."
-(cd "$APP_DIR" && npm run build)
+echo "Building backend as ${SERVICE_USER} (npm run build)..."
+# Must NOT build as root: the service runs as $SERVICE_USER, so anything
+# root creates here (dist/, and directories the app mkdir's at runtime like
+# dist/public/uploads) would end up unwritable by the service and crash-loop
+# with EACCES.
+sudo -u "$SERVICE_USER" -H bash -c "cd '$APP_DIR' && npm run build"
 
 if [[ ! -f "$APP_DIR/dist/src/index.js" ]]; then
   echo "Build did not produce dist/src/index.js — aborting." >&2
   exit 1
 fi
+
+# Fix up ownership in case a previous run of this script built as root.
+chown -R "$SERVICE_USER":"$SERVICE_USER" "$APP_DIR/dist"
 
 echo "Writing $SERVICE_FILE"
 sed \
