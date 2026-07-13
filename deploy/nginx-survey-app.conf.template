@@ -1,0 +1,51 @@
+# nginx site config for famkb.ch — serves the built frontend as static files
+# under /unibas/survey/ and reverse-proxies the API/internal/data routes to
+# the backend (managed separately by systemd, listening on 127.0.0.1:4000).
+#
+# Placeholders (__APP_ROOT__, __DOMAIN__) are filled in by install-nginx.sh.
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name __DOMAIN__ www.__DOMAIN__;
+
+    # Static frontend build (npm run build in frontend/, output in frontend/dist)
+    root __APP_ROOT__/frontend/dist;
+
+    location = / {
+        return 302 /unibas/survey/;
+    }
+
+    location /unibas/survey/ {
+        alias __APP_ROOT__/frontend/dist/;
+        try_files $uri $uri/ /unibas/survey/index.html;
+    }
+
+    location /unibas/survey/api/ {
+        proxy_pass http://127.0.0.1:4000;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+    location /unibas/survey/internal/ {
+        proxy_pass http://127.0.0.1:4000;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        client_max_body_size 50m;
+    }
+
+    location /unibas/survey/data/ {
+        proxy_pass http://127.0.0.1:4000;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
