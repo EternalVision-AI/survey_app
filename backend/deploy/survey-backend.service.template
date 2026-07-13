@@ -1,0 +1,21 @@
+[Unit]
+Description=KESB Survey backend (Express API)
+After=network.target
+
+[Service]
+Type=simple
+User=__SERVICE_USER__
+WorkingDirectory=__APP_DIR__
+EnvironmentFile=__APP_DIR__/.env
+ExecStart=__NODE_BIN__ dist/src/index.js
+Restart=on-failure
+RestartSec=3
+# Give the process a moment to release the port cleanly before systemd
+# considers a restart complete (mirrors the nodemon --delay fix in dev).
+TimeoutStopSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=survey-backend
+
+[Install]
+WantedBy=multi-user.target

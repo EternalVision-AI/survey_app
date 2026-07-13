@@ -1,0 +1,570 @@
+[
+  {
+    "id": "AG-01",
+    "name": "Bezirksgericht Aarau, Abteilung Familiengericht"
+  },
+  {
+    "id": "AG-02",
+    "name": "Bezirksgericht Baden, Abteilung Familiengericht"
+  },
+  {
+    "id": "AG-03",
+    "name": "Bezirksgericht Bremgarten, Abteilung Familiengericht"
+  },
+  {
+    "id": "AG-04",
+    "name": "Bezirksgericht Brugg, Abteilung Familiengericht"
+  },
+  {
+    "id": "AG-05",
+    "name": "Bezirksgericht Kulm, Abteilung Familiengericht"
+  },
+  {
+    "id": "AG-06",
+    "name": "Bezirksgericht Laufenburg, Abteilung Familiengericht"
+  },
+  {
+    "id": "AG-07",
+    "name": "Bezirksgericht Lenzburg, Abteilung Familiengericht"
+  },
+  {
+    "id": "AG-08",
+    "name": "Bezirksgericht Muri, Abteilung Familiengericht"
+  },
+  {
+    "id": "AG-09",
+    "name": "Bezirksgericht Rheinfelden, Abteilung Familiengericht"
+  },
+  {
+    "id": "AG-10",
+    "name": "Bezirksgericht Zofingen, Abteilung Familiengericht"
+  },
+  {
+    "id": "AG-11",
+    "name": "Bezirksgericht Zurzach, Abteilung Familiengericht"
+  },
+  {
+    "id": "AR-01",
+    "name": "KESB Appenzell Ausserrhoden"
+  },
+  {
+    "id": "AI-01",
+    "name": "KESB Appenzell Innerrhoden"
+  },
+  {
+    "id": "BL-01",
+    "name": "KESB Frenkentäler"
+  },
+  {
+    "id": "BL-02",
+    "name": "KESB Leimental"
+  },
+  {
+    "id": "BL-03",
+    "name": "KESB Laufental"
+  },
+  {
+    "id": "BL-04",
+    "name": "KESB Birstal"
+  },
+  {
+    "id": "BL-05",
+    "name": "KESB Kreis Liestal"
+  },
+  {
+    "id": "BL-06",
+    "name": "KESB Gelterkinden Sissach"
+  },
+  {
+    "id": "BS-01",
+    "name": "KESB Basel-Stadt"
+  },
+  {
+    "id": "BE-01",
+    "name": "KESB Oberland West"
+  },
+  {
+    "id": "BE-02",
+    "name": "KESB Oberland Ost"
+  },
+  {
+    "id": "BE-03",
+    "name": "KESB Thun"
+  },
+  {
+    "id": "BE-04",
+    "name": "KESB Mittelland Süd"
+  },
+  {
+    "id": "BE-05",
+    "name": "KESB Mittelland Nord"
+  },
+  {
+    "id": "BE-06",
+    "name": "KESB Bern"
+  },
+  {
+    "id": "BE-07",
+    "name": "KESB Oberaargau"
+  },
+  {
+    "id": "BE-08",
+    "name": "KESB Emmental"
+  },
+  {
+    "id": "BE-09",
+    "name": "KESB Seeland"
+  },
+  {
+    "id": "BE-10",
+    "name": "KESB Biel/APEA Bienne"
+  },
+  {
+    "id": "BE-11",
+    "name": "APEA Jura bernois"
+  },
+  {
+    "id": "BE-12",
+    "name": "Burgerliche KESB"
+  },
+  {
+    "id": "FR-01",
+    "name": "Friedensgericht des Sensebezirks"
+  },
+  {
+    "id": "FR-02",
+    "name": "Justice de paix du cercle de la Broye"
+  },
+  {
+    "id": "FR-03",
+    "name": "Justice de paix du cercle de la Gruyère"
+  },
+  {
+    "id": "FR-04",
+    "name": "Friedensgericht des Seebezirks"
+  },
+  {
+    "id": "FR-05",
+    "name": "Justice de paix du cercle de la Glâne"
+  },
+  {
+    "id": "FR-06",
+    "name": "Justice de paix du cercle de la Veveyse"
+  },
+  {
+    "id": "FR-07",
+    "name": "Justice de paix du cercle de la Sarine"
+  },
+  {
+    "id": "GE-01",
+    "name": "Tribunal de protection de l'adulte et de l'enfant (TPAE)"
+  },
+  {
+    "id": "GL-01",
+    "name": "KESB Glarus"
+  },
+  {
+    "id": "GR-01-0",
+    "name": "KESB Engadin/Südtäler, Hauptsitz Samedan"
+  },
+  {
+    "id": "GR-01-1",
+    "name": "KESB Engadin/Südtäler, Aussenstelle Scuol"
+  },
+  {
+    "id": "GR-02-0",
+    "name": "KESB Mittelbünden/Moesa, Hauptsitz Thusis"
+  },
+  {
+    "id": "GR-02-1",
+    "name": "KESB Mittelbünden/Moesa, Aussenstelle Roveredo"
+  },
+  {
+    "id": "GR-03",
+    "name": "KESB Nordbünden"
+  },
+  {
+    "id": "GR-04",
+    "name": "KESB Prättigau/Davos"
+  },
+  {
+    "id": "GR-05",
+    "name": "KESB Surselva"
+  },
+  {
+    "id": "JU-01",
+    "name": "APEA Jura"
+  },
+  {
+    "id": "LU-01",
+    "name": "KESB Luzern"
+  },
+  {
+    "id": "LU-02",
+    "name": "Stadt Kriens, KESB Kriens-Schwarzenberg"
+  },
+  {
+    "id": "LU-03",
+    "name": "Zentrum für Soziales, KESB Regionen Hochdorf und Sursee"
+  },
+  {
+    "id": "LU-04",
+    "name": "KESB Kreis Emmen"
+  },
+  {
+    "id": "LU-05",
+    "name": "KESB Region Willisau-Wiggertal"
+  },
+  {
+    "id": "LU-06",
+    "name": "KESB Region Entlebuch, Wolhusen, Ruswil"
+  },
+  {
+    "id": "LU-07",
+    "name": "KESB Luzern-Land"
+  },
+  {
+    "id": "NE-01",
+    "name": "Tribunal régional du Littoral et du Val-de-Travers, site de Neuchâtel"
+  },
+  {
+    "id": "NE-02",
+    "name": "Tribunal régional du Littoral et du Val-de-Travers, site de Boudry"
+  },
+  {
+    "id": "NE-03",
+    "name": "Tribunal régional des Montagnes et du Val-de-Ruz"
+  },
+  {
+    "id": "NW-01",
+    "name": "KESB Nidwalden"
+  },
+  {
+    "id": "OW-01",
+    "name": "KESB Obwalden"
+  },
+  {
+    "id": "SZ-01",
+    "name": "KESB Innerschwyz"
+  },
+  {
+    "id": "SZ-02",
+    "name": "KESB Ausserschwyz"
+  },
+  {
+    "id": "SG-01",
+    "name": "KESB Region St.Gallen"
+  },
+  {
+    "id": "SG-02",
+    "name": "KESB Region Rorschach"
+  },
+  {
+    "id": "SG-03",
+    "name": "KESB Rheintal"
+  },
+  {
+    "id": "SG-04",
+    "name": "KESB Werdenberg"
+  },
+  {
+    "id": "SG-05",
+    "name": "KESB Sarganserland"
+  },
+  {
+    "id": "SG-06",
+    "name": "KESB Region Zürichsee-Linth"
+  },
+  {
+    "id": "SG-07",
+    "name": "KESB Toggenburg"
+  },
+  {
+    "id": "SG-08",
+    "name": "KESB Wil-Uzwil"
+  },
+  {
+    "id": "SG-09",
+    "name": "KESB Region Gossau"
+  },
+  {
+    "id": "SH-01",
+    "name": "KESB des Kantons Schaffhausen"
+  },
+  {
+    "id": "SO-01",
+    "name": "KESB Olten-Gösgen"
+  },
+  {
+    "id": "SO-02",
+    "name": "KESB Region Solothurn"
+  },
+  {
+    "id": "SO-03-0",
+    "name": "KESB Dorneck-Thierstein/Thal-Gäu"
+  },
+  {
+    "id": "SO-03-1",
+    "name": "KESB Arbon"
+  },
+  {
+    "id": "TG-01",
+    "name": "KESB Frauenfeld"
+  },
+  {
+    "id": "TG-02",
+    "name": "KESB Kreuzlingen"
+  },
+  {
+    "id": "TG-03",
+    "name": "KESB Münchwilen"
+  },
+  {
+    "id": "TG-04",
+    "name": "KESB Weinfelden"
+  },
+  {
+    "id": "TG-05",
+    "name": "Autorità regionale di protezione 1"
+  },
+  {
+    "id": "TI-01",
+    "name": "Autorità regionale di protezione 2"
+  },
+  {
+    "id": "TI-02",
+    "name": "Autorità regionale di protezione 3"
+  },
+  {
+    "id": "TI-03",
+    "name": "Autorità regionale di protezione 4"
+  },
+  {
+    "id": "TI-04",
+    "name": "Autorità regionale di protezione 5"
+  },
+  {
+    "id": "TI-05",
+    "name": "Autorità regionale di protezione 6"
+  },
+  {
+    "id": "TI-06",
+    "name": "Autorità regionale di protezione 7"
+  },
+  {
+    "id": "TI-07",
+    "name": "Autorità regionale di protezione 9"
+  },
+  {
+    "id": "TI-09",
+    "name": "Autorità regionale di protezione 10"
+  },
+  {
+    "id": "TI-10",
+    "name": "Autorità regionale di protezione 11"
+  },
+  {
+    "id": "TI-11",
+    "name": "Autorità regionale di protezione 12"
+  },
+  {
+    "id": "TI-12",
+    "name": "Autorità regionale di protezione 13"
+  },
+  {
+    "id": "TI-13",
+    "name": "Autorità regionale di protezione 15"
+  },
+  {
+    "id": "TI-15",
+    "name": "Autorità regionale di protezione 16"
+  },
+  {
+    "id": "TI-16",
+    "name": "Autorità regionale di protezione 17"
+  },
+  {
+    "id": "TI-17",
+    "name": "Autorità regionale di protezione 18"
+  },
+  {
+    "id": "TI-18",
+    "name": "KESB Uri"
+  },
+  {
+    "id": "UR-01",
+    "name": "Justice de paix du district d'Aigle"
+  },
+  {
+    "id": "VD-01",
+    "name": "Justice de paix du district de la Broye-Vully"
+  },
+  {
+    "id": "VD-02",
+    "name": "Justice de paix du district de Lausanne"
+  },
+  {
+    "id": "VD-04",
+    "name": "Justice de paix du district de l'Ouest lausannois"
+  },
+  {
+    "id": "VD-05",
+    "name": "Justice de paix du district de Lavaux-Oron"
+  },
+  {
+    "id": "VD-06",
+    "name": "Justice de paix du district de Morges"
+  },
+  {
+    "id": "VD-07",
+    "name": "Justice de paix du district de Nyon"
+  },
+  {
+    "id": "VD-08",
+    "name": "Justice de paix du district de la Riviera-Pays-d'Enhaut"
+  },
+  {
+    "id": "VD-09",
+    "name": "Justice de paix du district du Jura-Nord vaudois"
+  },
+  {
+    "id": "VD-10",
+    "name": "Justice de paix du district du Gros-de-Vaud"
+  },
+  {
+    "id": "VD-11",
+    "name": "KESB Goms"
+  },
+  {
+    "id": "VS-02",
+    "name": "KESB Östlich-Raron"
+  },
+  {
+    "id": "VS-03",
+    "name": "KESB des Bezirkes Brig"
+  },
+  {
+    "id": "VS-04",
+    "name": "KESB Mattertal"
+  },
+  {
+    "id": "VS-05",
+    "name": "KESB Stalden-Saas"
+  },
+  {
+    "id": "VS-06",
+    "name": "KESB der Schulregion Visp"
+  },
+  {
+    "id": "VS-07",
+    "name": "KESB Leuk-Westlich Raron"
+  },
+  {
+    "id": "VS-09",
+    "name": "APEA de la Plaine"
+  },
+  {
+    "id": "VS-11",
+    "name": "APEA de Sierre"
+  },
+  {
+    "id": "VS-12",
+    "name": "APEA de Crans-Montana, Lens, Icogne"
+  },
+  {
+    "id": "VS-14",
+    "name": "APEA de Savièse"
+  },
+  {
+    "id": "VS-16",
+    "name": "APEA de Sion et région"
+  },
+  {
+    "id": "VS-17",
+    "name": "APEA d'Hérens"
+  },
+  {
+    "id": "VS-18",
+    "name": "APEA des Coteaux du soleil"
+  },
+  {
+    "id": "VS-19",
+    "name": "APEA de Nendaz"
+  },
+  {
+    "id": "VS-20",
+    "name": "APEA Martigny - Bovernier - Martigny-Combe - Trient - Saillon"
+  },
+  {
+    "id": "VS-21",
+    "name": "APEA des 2 rives"
+  },
+  {
+    "id": "VS-22",
+    "name": "APEA de l'Entremont"
+  },
+  {
+    "id": "VS-24",
+    "name": "APEA du district de St-Maurice"
+  },
+  {
+    "id": "VS-25",
+    "name": "APEA de Monthey"
+  },
+  {
+    "id": "VS-26",
+    "name": "KESB Zug"
+  },
+  {
+    "id": "ZG-01",
+    "name": "KESB Bezirk Affoltern"
+  },
+  {
+    "id": "ZH-01",
+    "name": "KESB Kreis Bülach Nord"
+  },
+  {
+    "id": "ZH-02",
+    "name": "KESB Kreis Bülach Süd"
+  },
+  {
+    "id": "ZH-03",
+    "name": "KESB Bezirk Dielsdorf"
+  },
+  {
+    "id": "ZH-04",
+    "name": "KESB Bezirk Dietikon"
+  },
+  {
+    "id": "ZH-05",
+    "name": "KESB Kreis Dübendorf"
+  },
+  {
+    "id": "ZH-06",
+    "name": "KESB Bezirk Hinwil"
+  },
+  {
+    "id": "ZH-07",
+    "name": "KESB Bezirk Horgen"
+  },
+  {
+    "id": "ZH-08",
+    "name": "KESB Bezirk Meilen"
+  },
+  {
+    "id": "ZH-09",
+    "name": "KESB Bezirk Pfäffikon ZH"
+  },
+  {
+    "id": "ZH-10",
+    "name": "KESB Kreis Uster"
+  },
+  {
+    "id": "ZH-11",
+    "name": "KESB Bezirke Winterthur und Andelfingen"
+  },
+  {
+    "id": "ZH-12",
+    "name": "KESB Stadt Zürich"
+  }
+]
